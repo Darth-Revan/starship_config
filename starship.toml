@@ -1,0 +1,205 @@
+[aws]
+disabled = true
+
+[azure]
+disabled = true
+
+[battery]
+disabled = true
+
+[character]
+format = "$symbol "
+success_symbol = "[❯](bold green) "
+error_symbol = "[✖](bold red) "
+
+[cmake]
+disabled = true
+
+[cobol]
+disabled = true
+
+[cmd_duration]
+disabled = true
+
+[conda]
+disabled = true
+
+[container]
+disabled  = true
+
+[crystal]
+disabled = true
+
+[dart]
+disabled = true
+
+[deno]
+disabled = true
+
+[directory]
+truncation_length = 8
+
+[docker_context]
+disabled = true
+
+[dotnet]
+heuristic = true
+
+[elixir]
+disabled = true
+
+[elm]
+disabled = true
+
+[env_var]
+disabled = true
+
+[erlang]
+disabled = true
+
+[fill]
+disabled = true
+
+[gcloud]
+disabled = true
+
+[git_branch]
+symbol = " "
+
+[golang]
+disabled = true
+
+[helm]
+disabled = true
+
+[hostname]
+ssh_only = true
+format = "[<$hostname>]($style) "
+trim_at = "."
+style = "bold blue"
+
+[java]
+disabled = true
+
+[jobs]
+disabled = true
+
+[julia]
+disabled = true
+
+[localip]
+ssh_only = true
+format = '[\($localipv4\)]($style) '
+style = "bold yellow"
+
+[kotlin]
+disabled = true
+
+[kubernetes]
+disabled = true
+
+[line_break]
+disabled = false
+
+[lua]
+disabled = true
+
+[memory_usage]
+disabled = false
+threshold = 80
+format = " $symbol [${ram}]($style) "
+style = "bold underline red"
+
+[hg_branch]
+disabled = true
+
+[nim]
+disabled = true
+
+[nix_shell]
+disabled = true
+
+[nodejs]
+disabled = true
+
+[ocaml]
+disabled = true
+
+[openstack]
+disabled = true
+
+[package]
+symbol = " "
+
+[perl]
+disabled = true
+
+[php]
+disabled = true
+
+[pulumi]
+disabled = true
+
+[purescript]
+disabled = true
+
+[python]
+symbol = " "
+python_binary = ["python", "python3"]
+detect_files = [".python-version", "pyproject.toml", "__init__.py"]
+format = ' [${symbol}(${version} )(\($virtualenv\) )]($style)'
+
+[rlang]
+disabled = true
+
+[red]
+disabled = true
+
+[ruby]
+disabled = true
+
+[rust]
+disabled = false
+
+[scala]
+disabled = true
+
+[shell]
+disabled = true
+
+[shlvl]
+disabled = true
+
+[singularity]
+disabled = true
+
+[status]
+disabled = true
+
+[sudo]
+disabled = true
+
+[swift]
+disabled = true
+
+[terraform]
+disabled = true
+
+[time]
+disabled = true
+
+[username]
+disabled = false
+format = "[$user]($style) on "
+
+[vagrant]
+disabled = true
+
+[vlang]
+disabled = true
+
+[vcsh]
+disabled = true
+
+[zig]
+disabled = true
